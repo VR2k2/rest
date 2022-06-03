@@ -1,0 +1,30 @@
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <script>
+        $(document).ready(function () {
+
+            $("#driver").click(function (event) {
+                $.getJSON('/phone', function (jd) {
+                    let formattedJson = JSON.stringify(jd._embedded.phone, null, 4);
+                    document.body.innerHTML += `<pre>${formattedJson}</pre>`;
+                    $('#stage').html('<p>ФИО: ' + jd._embedded.phone[0].fio + '</p>');
+                    $('#stage').append('<p>Телефон: ' + jd._embedded.phone[0].num + '</p>');
+                });
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+
+<p>Click on the button to load Phones:</p>
+
+<div id="stage" style="background-color:#cc0;">
+    STAGE
+</div>
+
+<input type="button" id="driver" value="Load Data"/>
+
+</body>

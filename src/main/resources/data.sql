@@ -1,0 +1,25 @@
+INSERT INTO phone(id, fio, num) VALUES ((select hibernate_sequence.nextval), 'Флока','112233');
+INSERT INTO phone(id, fio, num) VALUES ((select hibernate_sequence.nextval), 'Иванов','223344');
+INSERT INTO phone(id, fio, num) VALUES ((select hibernate_sequence.nextval), 'Петров','4958349');
+INSERT INTO phone(id, fio, num) VALUES ((select hibernate_sequence.nextval), 'Сидоров','87686');
+INSERT INTO phone(id, fio, num) VALUES ((select hibernate_sequence.nextval), 'Смирнов','34633');
+INSERT INTO phone(id, fio, num) VALUES ((select hibernate_sequence.nextval), 'Кузнецов','76856');
+INSERT INTO phone(id, fio, num) VALUES ((select hibernate_sequence.nextval), 'Попов','134234123');
+INSERT INTO phone(id, fio, num) VALUES ((select hibernate_sequence.nextval), 'Васильев','4576376');
+INSERT INTO phone(id, fio, num) VALUES ((select hibernate_sequence.nextval), 'Соколов','6795789578');
+INSERT INTO phone(id, fio, num) VALUES ((select hibernate_sequence.nextval), 'Михайлов','25235754');
+INSERT INTO phone(id, fio, num) VALUES ((select hibernate_sequence.nextval), 'Лебедев','089790798');
+INSERT INTO phone(id, fio, num) VALUES ((select hibernate_sequence.nextval), 'Козлов','1341242');
+INSERT INTO phone(id, fio, num) VALUES ((select hibernate_sequence.nextval), 'Новиков','537567');
+INSERT INTO phone(id, fio, num) VALUES ((select hibernate_sequence.nextval), 'Морозов','1324314312');
+INSERT INTO phone(id, fio, num) VALUES ((select hibernate_sequence.nextval), 'Волков','5987696789');
+INSERT INTO phone(id, fio, num) VALUES ((select hibernate_sequence.nextval), 'Соловьев','56346345643');
+INSERT INTO phone(id, fio, num) VALUES ((select hibernate_sequence.nextval), 'Зайцев','978078978');
+INSERT INTO phone(id, fio, num) VALUES ((select hibernate_sequence.nextval), 'Павлов','1231231234');
+INSERT INTO phone(id, fio, num) VALUES ((select hibernate_sequence.nextval), 'Семенов','567456746');
+INSERT INTO phone(id, fio, num) VALUES ((select hibernate_sequence.nextval), 'Голубев','78696789678');
+
+--select hibernate_sequence.nextval;
+--INSERT INTO phone(id, fio, num) VALUES (1, 'Флока','112233');
+--select hibernate_sequence.nextval;
+--INSERT INTO phone(id, fio, num) VALUES (2, 'Иванов','223344');
